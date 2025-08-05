@@ -1,0 +1,20 @@
+{
+  "reporterEnabled": "cypress-mochawesome-reporter",
+  "cypressMochawesomeReporterReporterOptions": {
+    "reportDir": "reports/cypress-html",
+    "reportFilename": "report",
+    "overwrite": true,
+    "html": true,
+    "json": true,
+    "charts": true,
+    "reportPageTitle": "UI Test Report",
+    "embeddedScreenshots": true,
+    "inlineAssets": true,
+    "saveAllAttempts": false,
+    "debug": true,
+    "videoOnFailOnly": false,
+    "quiet": false,
+    "showHooks": "failed",
+    "showSkipped": false
+  }
+}
